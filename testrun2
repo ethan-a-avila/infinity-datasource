@@ -1,0 +1,551 @@
+
+   _____ _                 _  _____       _       _ _   
+  / ____| |               | |/ ____|     | |     (_) |  
+ | |    | | ___  _   _  __| | (___  _ __ | | ___  _| |_ 
+ | |    | |/ _ \| | | |/ _` |\___ \| '_ \| |/ _ \| | __|
+ | |____| | (_) | |_| | (_| |____) | |_) | | (_) | | |_ 
+  \_____|_|\___/ \__,_|\__,_|_____/| .__/|_|\___/|_|\__|
+                                   | |                  
+                                   |_|                  
+
+  CloudSploit by Aqua Security, Ltd.
+  Cloud security auditing for AWS, Azure, GCP, Oracle, and GitHub
+
+INFO: No config file provided, using default AWS credential chain.
+INFO: Using compliance modes: cis1
+INFO: Ignoring passing results
+INFO: Skipping AWS pagination mode
+INFO: Determining API calls to make...
+DEBUG: Skipping plugin Access Analyzer Enabled because it is not used for compliance programs
+DEBUG: Skipping plugin Access Analyzer Active Findings because it is not used for compliance programs
+DEBUG: Skipping plugin ACM Certificate Validation because it is not used for compliance programs
+DEBUG: Skipping plugin ACM Certificate Expiry because it did not match compliance programs cis1
+DEBUG: Skipping plugin ACM Single Domain Name Certificates because it is not used for compliance programs
+DEBUG: Skipping plugin ACM Certificate Has Tags because it is not used for compliance programs
+DEBUG: Skipping plugin App Mesh VG Access Logging because it is not used for compliance programs
+DEBUG: Skipping plugin API Gateway Certificate Rotation because it is not used for compliance programs
+DEBUG: Skipping plugin API Gateway CloudWatch Logs because it is not used for compliance programs
+DEBUG: Skipping plugin API Gateway Private Endpoints because it is not used for compliance programs
+DEBUG: Skipping plugin API Gateway Content Encoding because it is not used for compliance programs
+DEBUG: Skipping plugin API Gateway Tracing Enabled because it is not used for compliance programs
+DEBUG: Skipping plugin API Gateway WAF Enabled because it is not used for compliance programs
+DEBUG: Skipping plugin API Gateway Detailed CloudWatch Metrics because it is not used for compliance programs
+DEBUG: Skipping plugin API Gateway Client Certificate because it is not used for compliance programs
+DEBUG: Skipping plugin API Gateway Response Caching because it is not used for compliance programs
+DEBUG: Skipping plugin API Stage-Level Cache Encryption because it is not used for compliance programs
+DEBUG: Skipping plugin Custom Domain TLS Version because it is not used for compliance programs
+DEBUG: Skipping plugin API Gateway Default Endpoint Disabled because it is not used for compliance programs
+DEBUG: Skipping plugin API Gateway Authorization because it is not used for compliance programs
+DEBUG: Skipping plugin App Mesh Restrict External Traffic because it is not used for compliance programs
+DEBUG: Skipping plugin App Mesh TLS Required because it is not used for compliance programs
+DEBUG: Skipping plugin ASG Multiple AZ because it is not used for compliance programs
+DEBUG: Skipping plugin Auto Scaling Notifications Active because it is not used for compliance programs
+DEBUG: Skipping plugin Auto Scaling Group Cooldown Period because it is not used for compliance programs
+DEBUG: Skipping plugin Empty AutoScaling Group because it is not used for compliance programs
+DEBUG: Skipping plugin AutoScaling ELB Same Availability Zone because it is not used for compliance programs
+DEBUG: Skipping plugin Auto Scaling Group Missing ELB because it is not used for compliance programs
+DEBUG: Skipping plugin Web-Tier Auto Scaling Group Associated ELB because it is not used for compliance programs
+DEBUG: Skipping plugin ELB Health Check Active because it is not used for compliance programs
+DEBUG: Skipping plugin Suspended AutoScaling Groups because it is not used for compliance programs
+DEBUG: Skipping plugin App-Tier ASG Launch Configurations Approved AMIs because it is not used for compliance programs
+DEBUG: Skipping plugin Web-Tier ASG Launch Configurations Approved AMIs because it is not used for compliance programs
+DEBUG: Skipping plugin App-Tier Auto Scaling Group CloudWatch Logs Enabled because it is not used for compliance programs
+DEBUG: Skipping plugin Web-Tier Auto Scaling Group CloudWatch Logs Enabled because it is not used for compliance programs
+DEBUG: Skipping plugin Launch Configuration Referencing Missing Security Groups because it is not used for compliance programs
+DEBUG: Skipping plugin Web-Tier Launch Configurations IAM Roles because it is not used for compliance programs
+DEBUG: Skipping plugin App-Tier Launch Configurations IAM Roles because it is not used for compliance programs
+DEBUG: Skipping plugin Auto Scaling Unused Launch Configuration because it is not used for compliance programs
+DEBUG: Skipping plugin Workgroup Encrypted because it is not used for compliance programs
+DEBUG: Skipping plugin Workgroup Enforce Configuration because it is not used for compliance programs
+DEBUG: Skipping plugin Infrastructure Configuration Notification Enabled because it is not used for compliance programs
+DEBUG: Skipping plugin Public S3 CloudFront Origin because it did not match compliance programs cis1
+DEBUG: Skipping plugin Secure CloudFront Origin because it did not match compliance programs cis1
+DEBUG: Skipping plugin Insecure CloudFront Protocols because it did not match compliance programs cis1
+DEBUG: Skipping plugin CloudFront HTTPS Only because it did not match compliance programs cis1
+DEBUG: Skipping plugin CloudFront Logging Enabled because it did not match compliance programs cis1
+DEBUG: Skipping plugin CloudFront WAF Enabled because it is not used for compliance programs
+DEBUG: Skipping plugin CloudFront Distribution Field-Level Encryption because it is not used for compliance programs
+DEBUG: Skipping plugin CloudFront Enabled because it is not used for compliance programs
+DEBUG: Skipping plugin CloudFront Enable Origin Failover because it is not used for compliance programs
+DEBUG: Skipping plugin CloudFront Geo Restriction because it is not used for compliance programs
+DEBUG: Skipping plugin CloudFront Compress Objects Automatically because it is not used for compliance programs
+DEBUG: Skipping plugin CloudFront Distribution Origins TLS Version because it is not used for compliance programs
+DEBUG: Skipping plugin CloudFront Custom Origin HTTPS Only because it is not used for compliance programs
+DEBUG: Skipping plugin CloudFront TLS Insecure Cipher because it is not used for compliance programs
+DEBUG: Skipping plugin CloudFront TLS Deprecated Protocols because it is not used for compliance programs
+DEBUG: Skipping plugin Amazon Comprehend Volume Encryption because it is not used for compliance programs
+DEBUG: Skipping plugin Amazon Comprehend Output Result Encryption because it is not used for compliance programs
+DEBUG: Skipping plugin CloudFormation Plaintext Parameters because it is not used for compliance programs
+DEBUG: Skipping plugin CloudFormation Stack Failed Status because it is not used for compliance programs
+DEBUG: Skipping plugin CloudFormation Drift Detection because it is not used for compliance programs
+DEBUG: Skipping plugin CloudFormation Stack Termination Protection Enabled because it is not used for compliance programs
+DEBUG: Skipping plugin CloudFormation Stack SNS Notifications because it is not used for compliance programs
+DEBUG: Skipping plugin CloudFormation Admin Priviliges because it is not used for compliance programs
+DEBUG: Skipping plugin AWS CloudFormation In Use because it is not used for compliance programs
+DEBUG: Skipping plugin CloudTrail Bucket Delete Policy because it did not match compliance programs cis1
+DEBUG: Skipping plugin CloudTrail Data Events because it is not used for compliance programs
+DEBUG: Skipping plugin CloudTrail Encryption because it did not match compliance programs cis1
+DEBUG: Skipping plugin CloudTrail File Validation because it did not match compliance programs cis1
+DEBUG: Skipping plugin Object Lock Enabled because it is not used for compliance programs
+DEBUG: Skipping plugin CloudTrail Delivery Failing because it is not used for compliance programs
+DEBUG: Skipping plugin CloudTrail Management Events because it is not used for compliance programs
+DEBUG: Skipping plugin CloudTrail S3 Bucket because it is not used for compliance programs
+DEBUG: Skipping plugin CloudTrail Global Services Logging Duplicated because it is not used for compliance programs
+DEBUG: Skipping plugin CloudTrail Notifications Enabled because it is not used for compliance programs
+DEBUG: Skipping plugin CloudTrail Has Tags because it is not used for compliance programs
+DEBUG: Skipping plugin EC2 Instances Optimized because it is not used for compliance programs
+DEBUG: Skipping plugin Lambda Function Optimized because it is not used for compliance programs
+DEBUG: Skipping plugin Compute Optimizer Recommendations Enabled because it is not used for compliance programs
+DEBUG: Skipping plugin EBS Volumes Optimized because it is not used for compliance programs
+DEBUG: Skipping plugin Auto Scaling Group Optimized because it is not used for compliance programs
+DEBUG: Skipping plugin AWS Config Complaint Rules because it is not used for compliance programs
+DEBUG: Skipping plugin Config Delivery Failing because it is not used for compliance programs
+DEBUG: Skipping plugin Config Service Missing Bucket because it is not used for compliance programs
+DEBUG: Skipping plugin AWS Services In Use because it is not used for compliance programs
+DEBUG: Skipping plugin DevOps Guru Notifications Enabled because it is not used for compliance programs
+DEBUG: Skipping plugin DMS Encryption Enabled because it did not match compliance programs cis1
+DEBUG: Skipping plugin DMS Publicly Accessible Instances because it is not used for compliance programs
+DEBUG: Skipping plugin DMS Multi-AZ Feature Enabled because it is not used for compliance programs
+DEBUG: Skipping plugin DMS Auto Minor Version Upgrade because it is not used for compliance programs
+DEBUG: Skipping plugin DynamoDB KMS Encryption because it is not used for compliance programs
+DEBUG: Skipping plugin DynamoDB Accelerator Cluster Encryption because it is not used for compliance programs
+DEBUG: Skipping plugin DynamoDB Continuous Backups because it is not used for compliance programs
+DEBUG: Skipping plugin DynamoDB Table Backup Exists because it is not used for compliance programs
+DEBUG: Skipping plugin DynamoDB Table Has Tags because it is not used for compliance programs
+DEBUG: Skipping plugin DynamoDB Unused Table because it is not used for compliance programs
+DEBUG: Skipping plugin Enhanced Metadata Collection Enabled because it is not used for compliance programs
+DEBUG: Skipping plugin Instance Limit because it is not used for compliance programs
+DEBUG: Skipping plugin Instance vCPU On-Demand Based Limits because it is not used for compliance programs
+DEBUG: Skipping plugin EC2 Max Instances because it is not used for compliance programs
+DEBUG: Skipping plugin EC2 Instance Key Based Login because it is not used for compliance programs
+DEBUG: Skipping plugin Open All Ports Protocols because it did not match compliance programs cis1
+DEBUG: Skipping plugin Open CIFS because it is not used for compliance programs
+DEBUG: Skipping plugin Open Custom Ports because it is not used for compliance programs
+DEBUG: Skipping plugin Open DNS because it is not used for compliance programs
+DEBUG: Skipping plugin Open Docker because it is not used for compliance programs
+DEBUG: Skipping plugin Open FTP because it is not used for compliance programs
+DEBUG: Skipping plugin Open Hadoop HDFS NameNode Metadata Service because it is not used for compliance programs
+DEBUG: Skipping plugin Open Hadoop HDFS NameNode WebUI because it is not used for compliance programs
+DEBUG: Skipping plugin Open Oracle Auto Data Warehouse because it is not used for compliance programs
+DEBUG: Skipping plugin Open Kibana because it is not used for compliance programs
+DEBUG: Skipping plugin Open MySQL because it is not used for compliance programs
+DEBUG: Skipping plugin Open Oracle because it is not used for compliance programs
+DEBUG: Skipping plugin Open NetBIOS because it is not used for compliance programs
+DEBUG: Skipping plugin Open PostgreSQL because it is not used for compliance programs
+DEBUG: Skipping plugin Open RPC because it is not used for compliance programs
+DEBUG: Skipping plugin Open Salt because it is not used for compliance programs
+DEBUG: Skipping plugin Open SMBoTCP because it is not used for compliance programs
+DEBUG: Skipping plugin Open SMTP because it is not used for compliance programs
+DEBUG: Skipping plugin Open SQL Server because it is not used for compliance programs
+DEBUG: Skipping plugin Open Telnet because it is not used for compliance programs
+DEBUG: Skipping plugin Open VNC Client because it is not used for compliance programs
+DEBUG: Skipping plugin Open VNC Server because it is not used for compliance programs
+DEBUG: Skipping plugin Open Elasticsearch because it is not used for compliance programs
+DEBUG: Skipping plugin Open MongoDB because it is not used for compliance programs
+DEBUG: Skipping plugin Open Cassandra Client because it is not used for compliance programs
+DEBUG: Skipping plugin Open Cassandra Internode because it is not used for compliance programs
+DEBUG: Skipping plugin Open Cassandra Monitoring because it is not used for compliance programs
+DEBUG: Skipping plugin Open Cassandra Thrift because it is not used for compliance programs
+DEBUG: Skipping plugin Open LDAP because it is not used for compliance programs
+DEBUG: Skipping plugin Open LDAPS because it is not used for compliance programs
+DEBUG: Skipping plugin Open SNMP because it is not used for compliance programs
+DEBUG: Skipping plugin Open Memcached because it is not used for compliance programs
+DEBUG: Skipping plugin Open Internal Web because it is not used for compliance programs
+DEBUG: Skipping plugin Open Redis because it is not used for compliance programs
+DEBUG: Skipping plugin Open HTTP because it is not used for compliance programs
+DEBUG: Skipping plugin Open HTTPS because it is not used for compliance programs
+DEBUG: Skipping plugin VPC Elastic IP Limit because it is not used for compliance programs
+DEBUG: Skipping plugin Detect EC2 Classic Instances because it did not match compliance programs cis1
+DEBUG: Skipping plugin VPC Flow Logs Enabled because it did not match compliance programs cis1
+DEBUG: Skipping plugin VPC Multiple Subnets because it is not used for compliance programs
+DEBUG: Skipping plugin Overlapping Security Groups because it is not used for compliance programs
+DEBUG: Skipping plugin Public AMI because it is not used for compliance programs
+DEBUG: Skipping plugin Encrypted AMI because it did not match compliance programs cis1
+DEBUG: Skipping plugin AMI Has Tags because it is not used for compliance programs
+DEBUG: Skipping plugin Instance IAM Role because it is not used for compliance programs
+DEBUG: Skipping plugin EBS Backup Enabled because it is not used for compliance programs
+DEBUG: Skipping plugin EBS Encryption Enabled because it did not match compliance programs cis1
+DEBUG: Skipping plugin Automate EBS Snapshot Lifecycle because it is not used for compliance programs
+DEBUG: Skipping plugin EBS Volumes Too Old Snapshots because it is not used for compliance programs
+DEBUG: Skipping plugin EBS Volumes Recent Snapshots because it is not used for compliance programs
+DEBUG: Skipping plugin EBS Volume Snapshot Public because it is not used for compliance programs
+DEBUG: Skipping plugin Amazon EBS Public Snapshots because it is not used for compliance programs
+DEBUG: Skipping plugin Unused Security Groups because it is not used for compliance programs
+DEBUG: Skipping plugin NAT Multiple AZ because it is not used for compliance programs
+DEBUG: Skipping plugin Default VPC In Use because it is not used for compliance programs
+DEBUG: Skipping plugin Default VPC Exists because it is not used for compliance programs
+DEBUG: Skipping plugin Cross VPC Public Private Communication because it did not match compliance programs cis1
+DEBUG: Skipping plugin VPC PrivateLink Endpoint Acceptance Required because it is not used for compliance programs
+DEBUG: Skipping plugin VPC Endpoint Exposed because it is not used for compliance programs
+DEBUG: Skipping plugin VPC Endpoint Cross Account Access because it is not used for compliance programs
+DEBUG: Skipping plugin Cross Organization VPC Peering Connections because it is not used for compliance programs
+DEBUG: Skipping plugin EBS Encrypted Snapshots because it did not match compliance programs cis1
+DEBUG: Skipping plugin EBS Encryption Enabled By Default because it is not used for compliance programs
+DEBUG: Skipping plugin Insecure EC2 Metadata Options because it is not used for compliance programs
+DEBUG: Skipping plugin EC2 CPU Alarm Threshold Exceeded because it is not used for compliance programs
+DEBUG: Skipping plugin EC2 Public Subnet because it is not used for compliance programs
+DEBUG: Skipping plugin Unused Elastic Network Interfaces because it is not used for compliance programs
+DEBUG: Skipping plugin Unused Amazon Machine Images because it is not used for compliance programs
+DEBUG: Skipping plugin Unused VPC Internet Gateways because it is not used for compliance programs
+DEBUG: Skipping plugin Managed NAT Gateway In Use because it is not used for compliance programs
+DEBUG: Skipping plugin Allowed Custom Ports because it is not used for compliance programs
+DEBUG: Skipping plugin Unused EBS Volumes because it is not used for compliance programs
+DEBUG: Skipping plugin Public IP Address EC2 Instances because it is not used for compliance programs
+DEBUG: Skipping plugin Unused Virtual Private Gateway because it is not used for compliance programs
+DEBUG: Skipping plugin VPC Subnet Instances Present because it is not used for compliance programs
+DEBUG: Skipping plugin Web-Tier EC2 Instance IAM Role because it is not used for compliance programs
+DEBUG: Skipping plugin VPN Tunnel State because it is not used for compliance programs
+DEBUG: Skipping plugin Unrestricted Network ACL Outbound Traffic because it is not used for compliance programs
+DEBUG: Skipping plugin Outdated Amazon Machine Images because it is not used for compliance programs
+DEBUG: Skipping plugin App-Tier EC2 Instance IAM Role because it is not used for compliance programs
+DEBUG: Skipping plugin Default Security Group because it did not match compliance programs cis1
+DEBUG: Skipping plugin EC2 LaunchWizard Security Groups because it is not used for compliance programs
+DEBUG: Skipping plugin Open RFC 1918 because it is not used for compliance programs
+DEBUG: Skipping plugin Elastic IP Limit because it is not used for compliance programs
+DEBUG: Skipping plugin Unassociated Elastic IP Addresses because it is not used for compliance programs
+DEBUG: Skipping plugin Subnet IP Availability because it is not used for compliance programs
+DEBUG: Skipping plugin Excessive Security Groups because it did not match compliance programs cis1
+DEBUG: Skipping plugin Virtual Private Gateway In VPC because it is not used for compliance programs
+DEBUG: Skipping plugin Internet Gateways In VPC because it is not used for compliance programs
+DEBUG: Skipping plugin Instance Detailed Monitoring because it is not used for compliance programs
+DEBUG: Skipping plugin EC2 has Tags because it is not used for compliance programs
+DEBUG: Skipping plugin Security Group Has Tags because it is not used for compliance programs
+DEBUG: Skipping plugin VPC Has Tags because it is not used for compliance programs
+DEBUG: Skipping plugin EBS Snapshot Has Tags because it is not used for compliance programs
+DEBUG: Skipping plugin Network ACL has Tags because it is not used for compliance programs
+DEBUG: Skipping plugin EBS Volume has tags because it is not used for compliance programs
+DEBUG: Skipping plugin Open All Ports Protocols Egress because it is not used for compliance programs
+DEBUG: Skipping plugin Default Security Group In Use because it is not used for compliance programs
+DEBUG: Skipping plugin EFS CMK Encrypted because it is not used for compliance programs
+DEBUG: Skipping plugin EFS Encryption Enabled because it did not match compliance programs cis1
+DEBUG: Skipping plugin EFS Has Tags because it is not used for compliance programs
+DEBUG: Skipping plugin Dockerfile Template Encrypted because it is not used for compliance programs
+DEBUG: Skipping plugin ECR Repository Policy because it is not used for compliance programs
+DEBUG: Skipping plugin ECR Repository Encrypted because it is not used for compliance programs
+DEBUG: Skipping plugin ECR Repository Tag Immutability because it is not used for compliance programs
+DEBUG: Skipping plugin ECR Repository Has Tags because it is not used for compliance programs
+DEBUG: Skipping plugin Amazon ECR Scan on Push because it is not used for compliance programs
+DEBUG: Skipping plugin ElasticBeanstalk Managed Platform Updates because it is not used for compliance programs
+DEBUG: Skipping plugin Enhanced Health Reporting because it is not used for compliance programs
+DEBUG: Skipping plugin Environment Access Logs because it is not used for compliance programs
+DEBUG: Skipping plugin Environment Persistent Logs because it is not used for compliance programs
+DEBUG: Skipping plugin EKS Kubernetes Version because it is not used for compliance programs
+DEBUG: Skipping plugin EKS Logging Enabled because it is not used for compliance programs
+DEBUG: Skipping plugin EKS Private Endpoint because it is not used for compliance programs
+DEBUG: Skipping plugin EKS Secrets Encrypted because it is not used for compliance programs
+DEBUG: Skipping plugin EKS Security Groups because it is not used for compliance programs
+DEBUG: Skipping plugin EKS Latest Platform Version because it is not used for compliance programs
+DEBUG: Skipping plugin EKS Cluster Has Tags because it is not used for compliance programs
+DEBUG: Skipping plugin Kendra Index Encrypted because it is not used for compliance programs
+DEBUG: Skipping plugin Environment Template Encrypted because it is not used for compliance programs
+DEBUG: Skipping plugin ELB Cross-Zone Load Balancing because it is not used for compliance programs
+DEBUG: Skipping plugin Insecure Ciphers because it did not match compliance programs cis1
+DEBUG: Skipping plugin ELB HTTPS Only because it is not used for compliance programs
+DEBUG: Skipping plugin ELB Logging Enabled because it did not match compliance programs cis1
+DEBUG: Skipping plugin ELB No Instances because it is not used for compliance programs
+DEBUG: Skipping plugin Classic Load Balancers In Use because it is not used for compliance programs
+DEBUG: Skipping plugin ELB Connection Draining Enabled because it is not used for compliance programs
+DEBUG: Skipping plugin App-Tier ELB Security Policy because it is not used for compliance programs
+DEBUG: Skipping plugin ELB Has Tags because it is not used for compliance programs
+DEBUG: Skipping plugin ELB Unhealthy Instances because it is not used for compliance programs
+DEBUG: Skipping plugin ELBv2 Deletion Protection because it is not used for compliance programs
+DEBUG: Skipping plugin ELBv2 Logging Enabled because it did not match compliance programs cis1
+DEBUG: Skipping plugin ELBv2 HTTPS Only because it is not used for compliance programs
+DEBUG: Skipping plugin ELBv2 No Instances because it is not used for compliance programs
+DEBUG: Skipping plugin ELBv2 WAF Enabled because it is not used for compliance programs
+DEBUG: Skipping plugin ELBv2 Minimum Number of EC2 Target Instances because it is not used for compliance programs
+DEBUG: Skipping plugin ELBv2 Unhealthy Instances because it is not used for compliance programs
+DEBUG: Skipping plugin ELBv2 NLB Listener Security because it is not used for compliance programs
+DEBUG: Skipping plugin ELBv2 Deregistration Delay because it is not used for compliance programs
+DEBUG: Skipping plugin ELB SSL Termination because it is not used for compliance programs
+DEBUG: Skipping plugin ELBv2 Has Tags because it is not used for compliance programs
+DEBUG: Skipping plugin ELBv2 Deprecated SSL Policies because it is not used for compliance programs
+DEBUG: Skipping plugin ELBv2 Insecure Ciphers because it is not used for compliance programs
+DEBUG: Skipping plugin ELBv2 Cross-Zone Load Balancing because it is not used for compliance programs
+DEBUG: Skipping plugin ElastiCache Default Ports because it is not used for compliance programs
+DEBUG: Skipping plugin EMR Cluster Logging because it is not used for compliance programs
+DEBUG: Skipping plugin EMR Cluster In VPC because it is not used for compliance programs
+DEBUG: Skipping plugin EMR Encryption In Transit because it is not used for compliance programs
+DEBUG: Skipping plugin EMR Encryption At Rest because it is not used for compliance programs
+DEBUG: Skipping plugin EMR Cluster Desired Instance Type because it is not used for compliance programs
+DEBUG: Skipping plugin EMR Instances Counts because it is not used for compliance programs
+DEBUG: Skipping plugin EMR Cluster Has Tags because it is not used for compliance programs
+DEBUG: Skipping plugin OpenSearch Cluster Status because it is not used for compliance programs
+DEBUG: Skipping plugin OpenSearch Access From IP Addresses because it is not used for compliance programs
+DEBUG: Skipping plugin OpenSearch Domain Cross Account access because it is not used for compliance programs
+DEBUG: Skipping plugin OpenSearch Dedicated Master Enabled because it is not used for compliance programs
+DEBUG: Skipping plugin OpenSearch Desired Instance Type because it is not used for compliance programs
+DEBUG: Skipping plugin OpenSearch Encryption Enabled because it is not used for compliance programs
+DEBUG: Skipping plugin OpenSearch Encrypted Domain because it is not used for compliance programs
+DEBUG: Skipping plugin OpenSearch Exposed Domain because it is not used for compliance programs
+DEBUG: Skipping plugin OpenSearch HTTPS Only because it is not used for compliance programs
+DEBUG: Skipping plugin OpenSearch Logging Enabled because it is not used for compliance programs
+DEBUG: Skipping plugin OpenSearch Node To Node Encryption because it is not used for compliance programs
+DEBUG: Skipping plugin OpenSearch Public Service Domain because it is not used for compliance programs
+DEBUG: Skipping plugin OpenSearch IAM Authentication because it is not used for compliance programs
+DEBUG: Skipping plugin OpenSearch TLS Version because it is not used for compliance programs
+DEBUG: Skipping plugin OpenSearch Upgrade Available because it is not used for compliance programs
+DEBUG: Skipping plugin OpenSearch Version because it is not used for compliance programs
+DEBUG: Skipping plugin S3 Glacier Vault Public Access because it is not used for compliance programs
+DEBUG: Skipping plugin Firehose Delivery Streams Encrypted because it did not match compliance programs cis1
+DEBUG: Skipping plugin Firehose Delivery Streams CMK Encrypted because it is not used for compliance programs
+DEBUG: Skipping plugin Event Bus Cross Account Access because it is not used for compliance programs
+DEBUG: Skipping plugin Event Bus Public Access because it is not used for compliance programs
+DEBUG: Skipping plugin EventBridge Event Rules In Use because it is not used for compliance programs
+DEBUG: Skipping plugin AWS Glue CloudWatch Encrypted Logs because it is not used for compliance programs
+DEBUG: Skipping plugin AWS Glue S3 Encryption Enabled because it is not used for compliance programs
+DEBUG: Skipping plugin AWS Glue Data Catalog CMK Encrypted because it is not used for compliance programs
+DEBUG: Skipping plugin AWS Glue Job Bookmark Encryption Enabled because it is not used for compliance programs
+DEBUG: Skipping plugin AWS Glue Data Catalog Encryption Enabled because it is not used for compliance programs
+DEBUG: Skipping plugin Image Recipe Storage Volumes Encrypted because it is not used for compliance programs
+DEBUG: Skipping plugin Image Builder Components Encrypted because it is not used for compliance programs
+DEBUG: Skipping plugin Access Keys Extra because it is not used for compliance programs
+DEBUG: Skipping plugin Certificate Expiry because it is not used for compliance programs
+DEBUG: Skipping plugin Cross-Account Access External ID and MFA because it is not used for compliance programs
+DEBUG: Skipping plugin Empty Groups because it is not used for compliance programs
+DEBUG: Skipping plugin Group Inline Policies because it is not used for compliance programs
+DEBUG: Skipping plugin IAM Master and IAM Manager Roles because it is not used for compliance programs
+DEBUG: Skipping plugin IAM User Admins because it did not match compliance programs cis1
+DEBUG: Skipping plugin IAM Username Matches Regex because it is not used for compliance programs
+DEBUG: Skipping plugin IAM User Unauthorized to Edit because it did not match compliance programs cis1
+DEBUG: Skipping plugin IAM User Has Tags because it is not used for compliance programs
+DEBUG: Skipping plugin IAM Role Policies because it is not used for compliance programs
+DEBUG: Skipping plugin IAM Role Last Used because it is not used for compliance programs
+DEBUG: Skipping plugin Maximum Password Age because it did not match compliance programs cis1
+DEBUG: Skipping plugin Root Account Active Signing Certificates because it did not match compliance programs cis1
+DEBUG: Skipping plugin Root Hardware MFA because it is not used for compliance programs
+DEBUG: Skipping plugin SSH Keys Rotated because it is not used for compliance programs
+DEBUG: Skipping plugin Trusted Cross Account Roles because it is not used for compliance programs
+DEBUG: Skipping plugin Users Password And Keys because it is not used for compliance programs
+DEBUG: Skipping plugin Canary Keys Used because it is not used for compliance programs
+DEBUG: Skipping plugin IAM Policies Present because it is not used for compliance programs
+DEBUG: Skipping plugin RDS IAM Database Authentication Enabled because it is not used for compliance programs
+DEBUG: Skipping plugin IAM Support Policy because it is not used for compliance programs
+DEBUG: Skipping plugin IAM User Present because it is not used for compliance programs
+DEBUG: Skipping plugin IAM Role Policy Unused Services because it is not used for compliance programs
+DEBUG: Skipping plugin IAM User Account In Use because it is not used for compliance programs
+DEBUG: Skipping plugin IAM Role Has Tags because it is not used for compliance programs
+DEBUG: Skipping plugin IAM User Account Not In Use because it is not used for compliance programs
+DEBUG: Skipping plugin IAM User Without Permissions because it is not used for compliance programs
+DEBUG: Skipping plugin Kinesis Streams Encrypted because it did not match compliance programs cis1
+DEBUG: Skipping plugin Kinesis Data Streams Encrypted because it is not used for compliance programs
+DEBUG: Skipping plugin Video Stream Data Encrypted because it is not used for compliance programs
+DEBUG: Skipping plugin KMS Key Rotation because it did not match compliance programs cis1
+DEBUG: Skipping plugin KMS Scheduled Deletion because it is not used for compliance programs
+DEBUG: Skipping plugin KMS Key Policy because it is not used for compliance programs
+DEBUG: Skipping plugin KMS Default Key Usage because it did not match compliance programs cis1
+DEBUG: Skipping plugin App-Tier KMS Customer Master Key (CMK) because it is not used for compliance programs
+DEBUG: Skipping plugin KMS Grant Least Privilege because it is not used for compliance programs
+DEBUG: Skipping plugin KMS Duplicate Grants because it is not used for compliance programs
+DEBUG: Skipping plugin RDS Automated Backups because it is not used for compliance programs
+DEBUG: Skipping plugin RDS Encryption Enabled because it did not match compliance programs cis1
+DEBUG: Skipping plugin RDS CMK Encryption because it is not used for compliance programs
+DEBUG: Skipping plugin RDS Logging Enabled because it is not used for compliance programs
+DEBUG: Skipping plugin RDS Publicly Accessible because it did not match compliance programs cis1
+DEBUG: Skipping plugin RDS Restorable because it did not match compliance programs cis1
+DEBUG: Skipping plugin RDS Multiple AZ because it is not used for compliance programs
+DEBUG: Skipping plugin RDS Snapshot Encryption because it is not used for compliance programs
+DEBUG: Skipping plugin RDS DocumentDB Minor Version Upgrade because it is not used for compliance programs
+DEBUG: Skipping plugin SQL Server TLS Version because it is not used for compliance programs
+DEBUG: Skipping plugin RDS Transport Encryption Enabled because it is not used for compliance programs
+DEBUG: Skipping plugin RDS Deletion Protection Enabled because it is not used for compliance programs
+DEBUG: Skipping plugin RDS Instance Default Master Username because it is not used for compliance programs
+DEBUG: Skipping plugin RDS Snapshot Publicly Accessible because it is not used for compliance programs
+DEBUG: Skipping plugin RDS Instance Has Tags because it is not used for compliance programs
+DEBUG: Skipping plugin RDS MySQL Vulnerability Check because it is not used for compliance programs
+DEBUG: Skipping plugin RDS Instance Generation because it is not used for compliance programs
+DEBUG: Skipping plugin ElastiCache Redis Cluster Encryption In-Transit because it is not used for compliance programs
+DEBUG: Skipping plugin ElastiCache Cluster In VPC because it is not used for compliance programs
+DEBUG: Skipping plugin ElastiCache Instance Generation because it is not used for compliance programs
+DEBUG: Skipping plugin ElastiCache Engine Versions for Redis because it is not used for compliance programs
+DEBUG: Skipping plugin ElastiCache Nodes Count because it is not used for compliance programs
+DEBUG: Skipping plugin ElastiCache Redis Cluster Have Multi-AZ because it is not used for compliance programs
+DEBUG: Skipping plugin ElastiCache idle Cluster Status because it is not used for compliance programs
+DEBUG: Skipping plugin ElastiCache Desired Node Type because it is not used for compliance programs
+DEBUG: Skipping plugin ElastiCache Cluster Has Tags because it is not used for compliance programs
+DEBUG: Skipping plugin Domain Auto Renew because it is not used for compliance programs
+DEBUG: Skipping plugin Domain Expiry because it is not used for compliance programs
+DEBUG: Skipping plugin Domain Transfer Lock because it is not used for compliance programs
+DEBUG: Skipping plugin Route53 Dangling DNS Records because it is not used for compliance programs
+DEBUG: Skipping plugin Domain Privacy Protection because it is not used for compliance programs
+DEBUG: Skipping plugin Sender Policy Framework In Use because it is not used for compliance programs
+DEBUG: Skipping plugin Sender Privacy Framework Record Present because it is not used for compliance programs
+DEBUG: Skipping plugin S3 Bucket Encryption In Transit because it is not used for compliance programs
+DEBUG: Skipping plugin S3 Bucket All Users Policy because it did not match compliance programs cis1
+DEBUG: Skipping plugin S3 Bucket All Users ACL because it did not match compliance programs cis1
+DEBUG: Skipping plugin S3 Bucket Policy CloudFront OAI because it did not match compliance programs cis1
+DEBUG: Skipping plugin S3 Bucket Versioning because it is not used for compliance programs
+DEBUG: Skipping plugin S3 Bucket Logging because it did not match compliance programs cis1
+DEBUG: Skipping plugin S3 Bucket Encryption Enforcement because it is not used for compliance programs
+DEBUG: Skipping plugin S3 Bucket Public Access Block because it is not used for compliance programs
+DEBUG: Skipping plugin S3 Bucket Encryption because it is not used for compliance programs
+DEBUG: Skipping plugin S3 Bucket Website Enabled because it is not used for compliance programs
+DEBUG: Skipping plugin S3 Bucket Enforce Object Encryption because it is not used for compliance programs
+DEBUG: Skipping plugin S3 Secure Transport Enabled because it is not used for compliance programs
+DEBUG: Skipping plugin S3 Bucket Lifecycle Configuration because it is not used for compliance programs
+DEBUG: Skipping plugin S3 Transfer Acceleration Enabled because it is not used for compliance programs
+DEBUG: Skipping plugin S3 DNS Compliant Bucket Names because it is not used for compliance programs
+DEBUG: Skipping plugin S3 Versioned Buckets Lifecycle Configuration because it is not used for compliance programs
+DEBUG: Skipping plugin S3 Bucket Has Tags because it is not used for compliance programs
+DEBUG: Skipping plugin S3 Bucket Policy CloudFront OAC because it did not match compliance programs cis1
+DEBUG: Skipping plugin Notebook Data Encrypted because it did not match compliance programs cis1
+DEBUG: Skipping plugin Notebook Direct Internet Access because it is not used for compliance programs
+DEBUG: Skipping plugin Notebook instance in VPC because it did not match compliance programs cis1
+DEBUG: Skipping plugin Email DKIM Enabled because it is not used for compliance programs
+DEBUG: Skipping plugin SES Email Messages Encrypted because it is not used for compliance programs
+DEBUG: Skipping plugin SNS Topic Encrypted because it is not used for compliance programs
+DEBUG: Skipping plugin SNS Topic Policies because it is not used for compliance programs
+DEBUG: Skipping plugin SNS Topic CMK Encryption because it is not used for compliance programs
+DEBUG: Skipping plugin SNS Cross Account Access because it is not used for compliance programs
+DEBUG: Skipping plugin SNS Valid Subscribers because it is not used for compliance programs
+DEBUG: Skipping plugin SNS Topic Has Tags because it is not used for compliance programs
+DEBUG: Skipping plugin SNS Topic HTTP Protocol Restriction because it is not used for compliance programs
+DEBUG: Skipping plugin SNS Subscription HTTPS Only because it is not used for compliance programs
+DEBUG: Skipping plugin SQS Cross Account Access because it did not match compliance programs cis1
+DEBUG: Skipping plugin SQS Dead Letter Queue because it is not used for compliance programs
+DEBUG: Skipping plugin SQS Encrypted because it did not match compliance programs cis1
+DEBUG: Skipping plugin SQS Public Access because it is not used for compliance programs
+DEBUG: Skipping plugin SQS Queue Unprocessed Messages because it is not used for compliance programs
+DEBUG: Skipping plugin SQS Encryption Enabled because it is not used for compliance programs
+DEBUG: Skipping plugin SSM Encrypted Parameters because it did not match compliance programs cis1
+DEBUG: Skipping plugin SSM Agent Active All Instances because it is not used for compliance programs
+DEBUG: Skipping plugin SSM Agent Latest Version because it is not used for compliance programs
+DEBUG: Skipping plugin SSM Agent Auto Update Enabled because it is not used for compliance programs
+DEBUG: Skipping plugin SSM Documents Public Access because it is not used for compliance programs
+DEBUG: Skipping plugin SSM Managed Instances because it is not used for compliance programs
+DEBUG: Skipping plugin SSM Session Duration because it is not used for compliance programs
+DEBUG: Skipping plugin Ledger Encrypted because it is not used for compliance programs
+DEBUG: Skipping plugin Lambda Admin Privileges because it is not used for compliance programs
+DEBUG: Skipping plugin Lambda Environment Variables Client Side Encryption because it is not used for compliance programs
+DEBUG: Skipping plugin Lambda Old Runtimes because it is not used for compliance programs
+DEBUG: Skipping plugin Lambda VPC Config because it is not used for compliance programs
+DEBUG: Skipping plugin Lambda Public Access because it is not used for compliance programs
+DEBUG: Skipping plugin Lambda Log Groups because it is not used for compliance programs
+DEBUG: Skipping plugin Lambda Tracing Enabled because it is not used for compliance programs
+DEBUG: Skipping plugin Lambda Has Tags because it is not used for compliance programs
+DEBUG: Skipping plugin Lambda Unique Execution Role because it is not used for compliance programs
+DEBUG: Skipping plugin Web Server Public Access because it is not used for compliance programs
+DEBUG: Skipping plugin Environment Admin Privileges because it is not used for compliance programs
+DEBUG: Skipping plugin Environment Data Encrypted because it is not used for compliance programs
+DEBUG: Skipping plugin Neptune Database Instance Encrypted because it is not used for compliance programs
+DEBUG: Skipping plugin Connect Customer Profiles Domain Encrypted because it is not used for compliance programs
+DEBUG: Skipping plugin Connect Wisdom Domain Encrypted because it is not used for compliance programs
+DEBUG: Skipping plugin Connect Voice ID Domain Encrypted because it is not used for compliance programs
+DEBUG: Skipping plugin CloudWatch Log Retention Period because it is not used for compliance programs
+DEBUG: Skipping plugin CloudWatch Log Groups Encrypted because it is not used for compliance programs
+DEBUG: Skipping plugin VPC Flow Logs Metric Alarm because it is not used for compliance programs
+DEBUG: Skipping plugin Timestream Database Encrypted because it is not used for compliance programs
+DEBUG: Skipping plugin MQ Auto Minor Version Upgrade because it is not used for compliance programs
+DEBUG: Skipping plugin MQ Log Exports Enabled because it is not used for compliance programs
+DEBUG: Skipping plugin MQ Deployment Mode because it is not used for compliance programs
+DEBUG: Skipping plugin MQ Desired Broker Instance Type because it is not used for compliance programs
+DEBUG: Skipping plugin MQ Broker Encrypted because it is not used for compliance programs
+DEBUG: Skipping plugin MemoryDB Cluster Encrypted because it is not used for compliance programs
+DEBUG: Skipping plugin MSK Cluster Client Broker Encryption because it is not used for compliance programs
+DEBUG: Skipping plugin MSK Cluster Public Access because it is not used for compliance programs
+DEBUG: Skipping plugin MSK Cluster Unauthenticated Access because it is not used for compliance programs
+DEBUG: Skipping plugin MSK Cluster Encryption At-Rest because it is not used for compliance programs
+DEBUG: Skipping plugin MSK Cluster Encryption In-Transit because it is not used for compliance programs
+DEBUG: Skipping plugin Redshift Cluster Audit Logging Enabled because it is not used for compliance programs
+DEBUG: Skipping plugin Redshift Cluster CMK Encryption because it is not used for compliance programs
+DEBUG: Skipping plugin Redshift Encryption Enabled because it did not match compliance programs cis1
+DEBUG: Skipping plugin Redshift Publicly Accessible because it did not match compliance programs cis1
+DEBUG: Skipping plugin Redshift Cluster Allow Version Upgrade because it is not used for compliance programs
+DEBUG: Skipping plugin Redshift Parameter Group SSL Required because it is not used for compliance programs
+DEBUG: Skipping plugin Redshift Cluster In VPC because it is not used for compliance programs
+DEBUG: Skipping plugin Redshift Cluster Default Port because it is not used for compliance programs
+DEBUG: Skipping plugin Redshift Cluster Default Master Username because it is not used for compliance programs
+DEBUG: Skipping plugin Redshift Automated Snapshot Retention Period because it is not used for compliance programs
+DEBUG: Skipping plugin Redshift User Activity Logging Enabled because it is not used for compliance programs
+DEBUG: Skipping plugin Redshift Nodes Count because it is not used for compliance programs
+DEBUG: Skipping plugin Redshift Unused Reserved Nodes because it is not used for compliance programs
+DEBUG: Skipping plugin Redshift Desired Node Type because it is not used for compliance programs
+DEBUG: Skipping plugin Underutilized Redshift Cluster Check because it is not used for compliance programs
+DEBUG: Skipping plugin ElastiCache Redis Cluster Encryption At-Rest because it is not used for compliance programs
+DEBUG: Skipping plugin ElastiCache Reserved Cache Node Payment Pending because it is not used for compliance programs
+DEBUG: Skipping plugin Unused ElastiCache Reserved Cache Nodes because it is not used for compliance programs
+DEBUG: Skipping plugin ElastiCache Reserved Cache Node Payment Failed because it is not used for compliance programs
+DEBUG: Skipping plugin ElastiCache Reserved Cache Node Lease Expiration because it is not used for compliance programs
+DEBUG: Skipping plugin Transfer Logging Enabled because it did not match compliance programs cis1
+DEBUG: Skipping plugin PrivateLink in Use for Transfer for SFTP Server Endpoints because it is not used for compliance programs
+DEBUG: Skipping plugin Service Encrypted because it is not used for compliance programs
+DEBUG: Skipping plugin Secrets Manager Secret Rotation Enabled because it is not used for compliance programs
+DEBUG: Skipping plugin Secrets Manager Encrypted Secrets because it did not match compliance programs cis1
+DEBUG: Skipping plugin Secrets Manager In Use because it is not used for compliance programs
+DEBUG: Skipping plugin Secret Has Tags because it is not used for compliance programs
+DEBUG: Skipping plugin FinSpace Environment Encrypted because it is not used for compliance programs
+DEBUG: Skipping plugin Shield Advanced Enabled because it is not used for compliance programs
+DEBUG: Skipping plugin Shield Emergency Contacts because it is not used for compliance programs
+DEBUG: Skipping plugin Shield Protections because it is not used for compliance programs
+DEBUG: Skipping plugin Enable All Organization Features because it is not used for compliance programs
+DEBUG: Skipping plugin Organization Invite because it is not used for compliance programs
+DEBUG: Skipping plugin GuardDuty is Enabled because it is not used for compliance programs
+DEBUG: Skipping plugin GuardDuty Master Account because it is not used for compliance programs
+DEBUG: Skipping plugin GuardDuty No Active Findings because it is not used for compliance programs
+DEBUG: Skipping plugin S3 GuardDuty Enabled because it is not used for compliance programs
+DEBUG: Skipping plugin Exported Findings Encrypted because it is not used for compliance programs
+DEBUG: Skipping plugin WorkSpaces Volume Encryption because it is not used for compliance programs
+DEBUG: Skipping plugin Workspaces IP Access Control because it is not used for compliance programs
+DEBUG: Skipping plugin Unused WorkSpaces because it is not used for compliance programs
+DEBUG: Skipping plugin WorkSpaces Instance Count because it is not used for compliance programs
+DEBUG: Skipping plugin WorkSpaces Desired Bundle Type because it is not used for compliance programs
+DEBUG: Skipping plugin XRay Encryption Enabled because it is not used for compliance programs
+DEBUG: Skipping plugin CodeBuild Valid Source Providers because it is not used for compliance programs
+DEBUG: Skipping plugin Project Artifacts Encrypted because it is not used for compliance programs
+DEBUG: Skipping plugin CodeStar Valid Repository Providers because it is not used for compliance programs
+DEBUG: Skipping plugin Pipeline Artifacts Encrypted because it is not used for compliance programs
+DEBUG: Skipping plugin HealthLake Data Store Encrypted because it is not used for compliance programs
+DEBUG: Skipping plugin CodeArtifact Domain Encrypted because it is not used for compliance programs
+DEBUG: Skipping plugin Audit Manager Data Encrypted because it is not used for compliance programs
+DEBUG: Skipping plugin AppFlow Flow Encrypted because it is not used for compliance programs
+DEBUG: Skipping plugin Elastic Transcoder Pipeline Data Encrypted because it is not used for compliance programs
+DEBUG: Skipping plugin Elastic Transcoder Job Outputs Encrypted because it is not used for compliance programs
+DEBUG: Skipping plugin Translate Job Output Encrypted because it is not used for compliance programs
+DEBUG: Skipping plugin AWS Glue DataBrew Job Output Encrypted because it is not used for compliance programs
+DEBUG: Skipping plugin Managed Blockchain Network Member Data Encrypted because it is not used for compliance programs
+DEBUG: Skipping plugin DocumentDB Cluster Encrypted because it is not used for compliance programs
+DEBUG: Skipping plugin DocumentDB Cluster Backup Retention because it is not used for compliance programs
+DEBUG: Skipping plugin Connect Instance Media Streams Encrypted because it is not used for compliance programs
+DEBUG: Skipping plugin Connect Instance Chat Transcripts Encrypted because it is not used for compliance programs
+DEBUG: Skipping plugin Connect Instance Exported Reports Encrypted because it is not used for compliance programs
+DEBUG: Skipping plugin Connect Instance Call Recording Encrypted because it is not used for compliance programs
+DEBUG: Skipping plugin Connect Instance Attachments Encrypted because it is not used for compliance programs
+DEBUG: Skipping plugin Backup Vault Encrypted because it is not used for compliance programs
+DEBUG: Skipping plugin Backup Resource Protection because it is not used for compliance programs
+DEBUG: Skipping plugin Backup In Use For RDS Snapshots because it is not used for compliance programs
+DEBUG: Skipping plugin Backup Failure Notification Enabled because it is not used for compliance programs
+DEBUG: Skipping plugin Backup Deletion Protection Enabled because it is not used for compliance programs
+DEBUG: Skipping plugin AWS Backup Compliant Lifecycle Configured because it is not used for compliance programs
+DEBUG: Skipping plugin Backup Vault Has Tags because it is not used for compliance programs
+DEBUG: Skipping plugin Backup Vault Policies because it is not used for compliance programs
+DEBUG: Skipping plugin LookoutEquipment Dataset Encrypted because it is not used for compliance programs
+DEBUG: Skipping plugin IoT SiteWise Data Encrypted because it is not used for compliance programs
+DEBUG: Skipping plugin Tracker Data Encrypted because it is not used for compliance programs
+DEBUG: Skipping plugin Geofence Collection Data Encrypted because it is not used for compliance programs
+DEBUG: Skipping plugin Model Data Encrypted because it is not used for compliance programs
+DEBUG: Skipping plugin LookoutMetrics Anomaly Detector Encrypted because it is not used for compliance programs
+DEBUG: Skipping plugin Audio Logs Encrypted because it is not used for compliance programs
+DEBUG: Skipping plugin Forecast Dataset Encrypted because it is not used for compliance programs
+DEBUG: Skipping plugin Forecast Dataset Export Encrypted because it is not used for compliance programs
+DEBUG: Skipping plugin FSx File System Encrypted because it is not used for compliance programs
+DEBUG: Skipping plugin AWS WAFV2 In Use because it is not used for compliance programs
+DEBUG: Skipping plugin AWS WAFV2 Cloudwatch Metrics Enabled because it is not used for compliance programs
+DEBUG: Skipping plugin Web ACL Rules Default Action because it is not used for compliance programs
+DEBUG: Skipping plugin AWS WAF In Use because it is not used for compliance programs
+DEBUG: Skipping plugin Fraud Detector Data Encrypted because it is not used for compliance programs
+DEBUG: Skipping plugin Container Insights Enabled because it is not used for compliance programs
+DEBUG: Skipping plugin ECS Cluster Has Tags because it is not used for compliance programs
+DEBUG: Skipping plugin ECS Cluster Service Active Tasks because it is not used for compliance programs
+DEBUG: Skipping plugin ECS Cluster Active Services because it is not used for compliance programs
+DEBUG: Skipping plugin Cognito User Pool WAF Enabled because it is not used for compliance programs
+DEBUG: Skipping plugin Cognito User Pool MFA enabled because it is not used for compliance programs
+DEBUG: Skipping plugin OpenSearch Collection CMK Encryption because it is not used for compliance programs
+DEBUG: Skipping plugin OpenSearch Collection Public Access because it is not used for compliance programs
+INFO: Found 20 API calls to make for aws plugins
+INFO: Collecting metadata. This may take several minutes...
+[INFO][REGIONS] Could not load all regions from EC2: {"message":"Missing region in config","code":"ConfigError","time":"2023-06-26T14:57:03.694Z"}
+INFO: Metadata collection complete. Analyzing...
+INFO: Analysis complete. Scan report to follow...
+INFO: JSON file written to JSON
+INFO: Console output suppressed because "console" setting was "none"
+INFO: Scan complete
